@@ -1,0 +1,20 @@
+body{
+    overflow: scroll;
+    margin-left: 5%;
+    margin: 5%;
+    border: 5%;
+}
+.nav{
+    font-family: monospace;
+    font-size: 14px;
+    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style:groove;
+    padding: 1%;
+}
+p{
+    position: relative;
+    bottom: 0px;
+}

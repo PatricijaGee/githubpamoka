@@ -1,0 +1,37 @@
+body{
+
+    background-color:azure;
+}
+
+h1{
+    text-align: center;
+    font-family:monospace;
+    
+}
+p{
+    color:blueviolet;
+    text-align: center;
+    border-style: inset;
+    border-color: darkviolet;
+   
+}
+ol{
+    text-align:right;
+    list-style:inside;
+    color:crimson;
+    border-style:ridge;
+
+}
+
+input
+{
+    
+    width: 500px;
+    height: 30px;
+    background-color:ivory;
+}
+
+input[type="checkbox"]{
+    width: unset;
+    height: unset;
+}
