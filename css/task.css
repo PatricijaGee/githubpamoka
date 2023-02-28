@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  background: url(/images/mayback.jpg) no-repeat center center/ cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-task-container {
+  width: 350px;
+  padding: 20px 10px;
+  background: rgb(169, 182, 149);
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgb(27, 36, 27);
+  margin-bottom: 20px;
+
+  display: flex;
+}
+
+input {
+  flex: 5;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#add-task {
+  flex: 1;
+
+  font-size: 1.2rem;
+  padding: 5px;
+
+  background-color: #c2d4c7;
+  color: rgb(2, 36, 2);
+  cursor: pointer;
+
+  border: green solid 1px;
+  border-radius: 10px;
+
+  transition: 0.5s;
+}
+
+#add-task:hover {
+  background-color: green;
+  color: #fff;
+}
+
+/*styling tasks which get added to the list*/
+
+.task {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+
+  padding: 5px;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.task li {
+  list-style: none;
+  flex: 4;
+  padding: 5px;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.task button {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.task .checkTask {
+  color: blue;
+  margin-right: 5px;
+  border: solid 2px blue;
+  font-size: 1.3rem;
+}
+.task .checkTask:hover {
+  background-color: blue;
+  color: white;
+}
+
+.task .deleteTask {
+  color: red;
+  margin-right: 5px;
+  border: solid 2px red;
+  font-size: 1.3rem;
+}
+.task .deleteTask:hover {
+  background-color: red;
+  color: #fff;
+}
