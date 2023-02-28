@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  background: url(/images/e8074b5a01e3170437e0d0e4c28dac3e-700.jpg) no-repeat
+    center center/ cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 60%;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 13px #fff;
+}
+
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+
+  padding: 35px;
+}
+
+.buttons {
+  text-align: center;
+}
+button {
+  margin: 0 10px;
+  border: none;
+}
+
+button i {
+  font-size: 30px;
+  padding: 10px;
+  color: #fff;
+  width: 50px;
+}
+
+#play {
+  background-color: rgb(216, 106, 128);
+}
+#pause {
+  background-color: rgb(228, 80, 27);
+}
+#reset {
+  background-color: rgb(24, 142, 211);
+}
