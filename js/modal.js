@@ -89,7 +89,7 @@ document.querySelector(".div2").addEventListener(
   function () {
     console.log("DIV 2");
   },
-  false
+  true
 );
 document.querySelector(".div1").addEventListener(
   "click",
@@ -98,10 +98,30 @@ document.querySelector(".div1").addEventListener(
   },
   false
 );
-document.querySelector("button").addEventListener(
+document.querySelector(".button").addEventListener(
   "click",
   function (e) {
+    e.preventDefault();
     console.log((e.target.innerText = "clicked!"));
   },
-  false
+  true
 );
+
+//event delegation
+
+document.querySelector("#sports").addEventListener("click", function (e) {
+  console.log(e.target.getAttribute("id") + " is clicked");
+
+  const target = e.target;
+  if (target.matches("li")) {
+    target.style.backgroundColor = "lightgrey";
+  }
+});
+
+const sports = document.querySelector("#sports");
+const newSport = document.createElement("li");
+
+newSport.innerText = "Rugby";
+newSport.setAttribute("id", "rugby");
+
+sports.appendChild(newSport);

@@ -121,3 +121,24 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+.div1 .button {
+  display: block;
+}
+
+.container-sports {
+  border: solid 1px black;
+  width: 300px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul#sports li {
+  list-style-type: none;
+  text-align: center;
+  border: solid 1px black;
+  padding: 25px;
+  width: 180px;
+  cursor: pointer;
+}
