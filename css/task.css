@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #add-task-container {
@@ -64,9 +65,9 @@ input {
 
 .task li {
   list-style: none;
-  flex: 4;
+  flex: 5;
   padding: 5px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 10px;
 }
 
